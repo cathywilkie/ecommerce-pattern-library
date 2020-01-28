@@ -1,0 +1,15 @@
+:root {
+  --color-primary-dark: #383839;
+  --color-primary-dark-pale: #707070;
+  --color-primary-dark-darkest: #1f1d1d;
+  --color-secondary-light: #f8f8f8;
+  --color-secondary-light-grey: #e0e2e2;
+  --color-secondary-light-darkest: #c1c1c1;
+
+  --font-primary: "Noto Serif", "Trebuchet MS", serif;
+  --font-secondary: "Abril Display", "Trebuchet MS", serif;
+}
+
+html {
+  font-family: var(--font-primary);
+}
