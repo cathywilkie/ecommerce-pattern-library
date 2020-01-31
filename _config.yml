@@ -2,4 +2,21 @@ permalink: pretty
 theme: jekyll_patternbot
 
 patternbot:
+  title: "Black Market"
+  description: |
+    You need something specific? You want it in black? You're at the good place.
   font_url: "https://use.typekit.net/pyj2urx.css"
+  colors:
+    background: "--color-primary-dark"
+    accents: "--color-primary-darkest"
+    patterns:
+      brand.logos: "--color-secondary-light"
+  rationales:
+    typefaces.primary: |
+      Abril was selected because
+    typefaces.secondary: |
+      Noto is used for
+    colors.primary: |
+      The primary colours are
+    colors.secondary: |
+      The secondary colours are

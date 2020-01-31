@@ -5,17 +5,16 @@
   --color-secondary-light: #f8f8f8;
   --color-secondary-light-grey: #e0e2e2;
   --color-secondary-light-darkest: #c1c1c1;
-  --color-secondary-dj: pink;
 
   --font-primary: "Abril Display", "Trebuchet MS", serif;
   --font-secondary: "Noto Serif", "Trebuchet MS", serif;
-  --font-weight-primary: 400;
-  --font-weight-secondary: 700;
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
 }
 
 html {
   font-family: var(--font-secondary);
-  font-weight: var(--font-weight-secondary);
+  font-weight: var(--font-weight-regular);
 }
 
 /*Headings: <h1>, <h2>, <h3>, <h4>, <h5>, <h6>
@@ -26,21 +25,23 @@ Emphasis & edits:, <em>, <strong>, <del>, <ins>, <abbr>, <dfn>, <i>, <b>, <mark>
 
 h1 {
   font-family: var(--font-primary);
-  font-weight: var(--font-weight-secondary);
+  font-weight: var(--font-weight-bold);
   color: var(--color-secondary-light-grey);
 }
 
 h2,
 h3 {
-  font-family: var(--font-primary);
-  font-weight: var(--font-weight-secondary);
+  font-family: var(--font-secondary);
+  font-weight: var(--font-weight-bold);
   color: var(--color-secondary-light-grey);
 }
 
 h4,
 h5,
 h6 {
-
+  font-family: var(--font-primary);
+  font-weight: var(--font-weight-regular);
+  color: var(--color-secondary-light-grey);
 }
 
 ul,
@@ -61,5 +62,9 @@ blockquote {
 }
 
 cite {
+
+}
+
+mark {
 
 }
