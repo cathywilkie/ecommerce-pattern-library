@@ -5,11 +5,61 @@
   --color-secondary-light: #f8f8f8;
   --color-secondary-light-grey: #e0e2e2;
   --color-secondary-light-darkest: #c1c1c1;
+  --color-secondary-dj: pink;
 
-  --font-primary: "Noto Serif", "Trebuchet MS", serif;
-  --font-secondary: "Abril Display", "Trebuchet MS", serif;
+  --font-primary: "Abril Display", "Trebuchet MS", serif;
+  --font-secondary: "Noto Serif", "Trebuchet MS", serif;
+  --font-weight-primary: 400;
+  --font-weight-secondary: 700;
 }
 
 html {
+  font-family: var(--font-secondary);
+  font-weight: var(--font-weight-secondary);
+}
+
+/*Headings: <h1>, <h2>, <h3>, <h4>, <h5>, <h6>
+Lists: <ul>, <ol>, <dl>
+Links: <a>
+Blockquotes: <blockquote>, <cite>
+Emphasis & edits:, <em>, <strong>, <del>, <ins>, <abbr>, <dfn>, <i>, <b>, <mark>, <q>, <s>, <u>*/
+
+h1 {
   font-family: var(--font-primary);
+  font-weight: var(--font-weight-secondary);
+  color: var(--color-secondary-light-grey);
+}
+
+h2,
+h3 {
+  font-family: var(--font-primary);
+  font-weight: var(--font-weight-secondary);
+  color: var(--color-secondary-light-grey);
+}
+
+h4,
+h5,
+h6 {
+
+}
+
+ul,
+ol {
+
+}
+
+dl {
+
+}
+
+a {
+
+}
+
+blockquote {
+
+}
+
+cite {
+
 }
