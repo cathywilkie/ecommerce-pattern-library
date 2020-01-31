@@ -8,9 +8,8 @@ patternbot:
   font_url: "https://use.typekit.net/pyj2urx.css"
   colors:
     background: "--color-primary-dark"
-    accents: "--color-primary-darkest"
-    patterns:
-      brand.logos: "--color-primary-dark"
+    accents: "--color-primary-dark-darkest"
+
   rationales:
     typefaces.primary: |
       Abril was selected because
