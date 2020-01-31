@@ -9,7 +9,6 @@ patternbot:
   colors:
     background: "--color-primary-dark"
     accents: "--color-primary-dark-darkest"
-
   rationales:
     typefaces.primary: |
       Abril was selected because

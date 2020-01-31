@@ -33,7 +33,7 @@ h3 {
 h4,
 h5,
 h6 {
-  font-family: var(--font-primary);
+  font-family: var(--font-secondary);
   font-weight: var(--font-weight-regular);
   color: var(--color-secondary-light-grey);
 }
@@ -48,25 +48,37 @@ dl {
 }
 
 a {
+  font-family: var(--font-secondary);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-secondary-light);
+  text-decoration: none;
+}
 
+a:hover {
+  border-bottom: 2px solid var(--color-secondary-light-darkest);
 }
 
 blockquote {
-
+  font-family: var(--font-secondary);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-secondary-light-grey);
 }
 
 cite {
-
+  font-family: var(--font-secondary);
+  color: var(--color-secondary-light-grey);
+  font-style: italic;
 }
 
 mark {
-
+  color: var(--color-primary-dark-darkest);
+  background-color: aquamarine;
 }
 
 em {
-
+  font-weight: 600;
 }
 
 strong {
-
+  font-weight: var(--font-weight-bold);
 }
