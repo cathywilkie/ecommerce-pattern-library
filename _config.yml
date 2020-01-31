@@ -10,7 +10,7 @@ patternbot:
     background: "--color-primary-dark"
     accents: "--color-primary-darkest"
     patterns:
-      brand.logos: "--color-secondary-light"
+      brand.logos: "--color-primary-dark"
   rationales:
     typefaces.primary: |
       Abril was selected because

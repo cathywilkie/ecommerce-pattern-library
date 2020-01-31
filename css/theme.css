@@ -17,12 +17,6 @@ html {
   font-weight: var(--font-weight-regular);
 }
 
-/*Headings: <h1>, <h2>, <h3>, <h4>, <h5>, <h6>
-Lists: <ul>, <ol>, <dl>
-Links: <a>
-Blockquotes: <blockquote>, <cite>
-Emphasis & edits:, <em>, <strong>, <del>, <ins>, <abbr>, <dfn>, <i>, <b>, <mark>, <q>, <s>, <u>*/
-
 h1 {
   font-family: var(--font-primary);
   font-weight: var(--font-weight-bold);
@@ -66,5 +60,13 @@ cite {
 }
 
 mark {
+
+}
+
+em {
+
+}
+
+strong {
 
 }
