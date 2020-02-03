@@ -1,0 +1,15 @@
+.card {
+  background-color: var(--color-primary-dark);
+  border: 2px solid var(--color-primary-dark-darkest);
+  border-radius: 6px;
+  padding: 1em;
+}
+
+.img-card {
+  max-width: 20em;
+  max-height: 30em;
+}
+
+.card-content {
+  color: var(--color-secondary-light-grey);
+}
