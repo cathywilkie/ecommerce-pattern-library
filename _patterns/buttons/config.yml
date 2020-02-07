@@ -1,0 +1,7 @@
+patterns:
+  basic:
+    padding: 2em
+  light:
+    padding: 2em
+  ghost:
+    padding: 2em

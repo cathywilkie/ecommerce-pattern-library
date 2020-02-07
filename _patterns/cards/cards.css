@@ -1,13 +1,10 @@
 .card {
-  background-color: var(--color-primary-dark);
-  border: 2px solid var(--color-primary-dark-darkest);
+  background-color: var(--color-primary-dark-pale);
   border-radius: 6px;
-  padding: 1em;
 }
 
 .img-card {
-  max-width: 20em;
-  max-height: 30em;
+  border-radius: 8px 8px 0 0;
 }
 
 .card-content {

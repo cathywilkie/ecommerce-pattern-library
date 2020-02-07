@@ -5,7 +5,7 @@ patternbot:
   title: "Black Market"
   description: |
     You need something specific? You want it in black? You're at the good place.
-  font_url: "https://use.typekit.net/pyj2urx.css"
+  font_url: "https://fonts.googleapis.com/css?family=Noto+Sans:400,700|Noto+Serif:400,700&display=swap"
   colors:
     background: "--color-primary-dark"
     accent: "--color-secondary-light-grey"

@@ -9,8 +9,8 @@
   --color-accent-1: #c9a94e;
   --color-accent-2: #E5C97A;
 
-  --font-primary: "Abril Display", "Trebuchet MS", serif;
-  --font-secondary: "Noto Serif", "Trebuchet MS", serif;
+  --font-primary: "Noto Serif", serif;
+  --font-secondary: "Noto Sans", sans-serif;
   --font-weight-regular: 400;
   --font-weight-bold: 700;
 }
@@ -19,15 +19,10 @@ html {
   font-family: var(--font-secondary);
 }
 
-h1 {
-  font-family: var(--font-primary);
-  font-weight: var(--font-weight-bold);
-  color: var(--color-secondary-light-grey);
-}
-
+h1,
 h2,
 h3 {
-  font-family: var(--font-secondary);
+  font-family: var(--font-primary);
   font-weight: var(--font-weight-bold);
   color: var(--color-secondary-light-grey);
 }
@@ -35,18 +30,14 @@ h3 {
 h4,
 h5,
 h6 {
-  font-family: var(--font-secondary);
+  font-family: var(--font-primary);
   font-weight: var(--font-weight-regular);
   color: var(--color-secondary-light-grey);
 }
 
 ul,
 ol {
-
-}
-
-dl {
-
+  list-style-type: none;
 }
 
 a {
@@ -54,10 +45,6 @@ a {
   font-weight: var(--font-weight-bold);
   color: var(--color-secondary-light);
   text-decoration: none;
-}
-
-a:hover {
-  border-bottom: 2px solid var(--color-secondary-light-darkest);
 }
 
 blockquote {

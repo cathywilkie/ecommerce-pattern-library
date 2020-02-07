@@ -4,7 +4,7 @@
   border-radius: 6px;
   color: var(--color-secondary-light);
   padding: .5em 2em;
-  transition: border-radius .3s ease;
+  transition: border-radius .2s ease;
 }
 
 .btn:hover {
@@ -20,13 +20,13 @@
   border: 2px solid var(--color-secondary-light-darkest);
   border-radius: 6px;
   padding: .4em 1.6em;
-  transition: all .3s ease;
+  transition: all .2s ease;
 }
 
 .btn-ghost:hover {
   background-color: inherit;
   color: var(--color-accent-2);
-  border-color: var(--color-accent-1);
+  border: 2.3px solid var(--color-accent-1);
   border-radius: 60px;
   box-shadow: 0px 0px 8px var(--color-accent-2);
 }
@@ -36,12 +36,20 @@
   color: var(--color-primary-dark-darkest);
   border-radius: 6px;
   padding: .5em 2em;
-  transition: border-radius .3s ease;
+  transition: border-radius .2s ease;
 }
 
 .btn-light:hover {
   color: var(--color-secondary-light);
-  background-color: var(--color-primary-dark-darkest);
-  border: none;
+  background-color: transparent;
+  border: 2px solid var(--color-secondary-light-darkest);
   border-radius: 60px;
+}
+
+.btn-add-cart {
+  border: 2px solid var(--color-secondary-light-darkest);
+  background-color: transparent;
+  border-radius: 100px;
+  padding: .4em;
+  color: var(--color-secondary-light-grey);
 }
