@@ -1,6 +1,7 @@
 .card {
-  background-color: var(--color-primary-dark-pale);
+  background-color: var(--color-secondary-light-grey);
   border-radius: 6px;
+  max-width: 70%;
 }
 
 .img-card {
@@ -8,5 +9,13 @@
 }
 
 .card-content {
-  color: var(--color-secondary-light-grey);
+  color: var(--color-primary-dark);
+}
+
+.card-title {
+  font-family: var(--font-primary);
+}
+
+.cart-cart {
+  text-align: right;
 }
