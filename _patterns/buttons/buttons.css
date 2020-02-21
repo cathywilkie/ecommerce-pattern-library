@@ -47,9 +47,9 @@
 }
 
 .btn-add-cart {
-  border: 2px solid var(--color-secondary-light-darkest);
+  border: 2px solid var(--color-primary-dark);
   background-color: transparent;
   border-radius: 100px;
   padding: .4em;
-  color: var(--color-secondary-light-grey);
+  color: var(--color-primary-dark);
 }
