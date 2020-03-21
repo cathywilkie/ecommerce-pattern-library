@@ -1,0 +1,9 @@
+.call-to-action {
+  background-color: var(--color-primary-dark-darkest);
+}
+
+.promo {
+  background-color: var(--color-primary-dark-pale);
+  text-align: center;
+}
+

@@ -1,0 +1,86 @@
+header {
+  background-color: var(--color-primary-dark);
+}
+
+.logo {
+  max-width: 132px;
+  max-height: 132px;
+}
+
+.tool {
+  display: inline-block;
+}
+
+.login-sign {
+  font-family: var(--font-primary);
+}
+
+/*--------------HOVERS--------------------*/
+
+.login-sign:hover {
+  color: var(--color-accent-2);
+}
+
+.cart-icon:hover {
+  color: var(--color-accent-2);
+}
+
+.favorite-hover:hover {
+  color: var(--color-accent-2);
+}
+
+.cart-hover {
+  display: none;
+}
+
+.cart-icon:hover .cart-normal {
+  display: none;
+}
+
+.cart-icon:hover .cart-hover {
+  display: block;
+}
+
+.favorite-hover {
+  display: none;
+}
+
+.heart-icon:hover .favorite-normal {
+  display: none;
+}
+
+.heart-icon:hover .favorite-hover {
+  display: block;
+}
+
+
+@media only screen and (min-width: 38em) {
+
+  .logo-white {
+    width: 115px;
+  }
+
+}
+
+/* -----------categories---------------*/
+
+.categories {
+  background-color: var(--color-primary-dark-darkest);
+}
+
+.categories > ul {
+  margin: 0;
+}
+
+.themes {
+  display: inline-block;
+}
+
+.themes > a {
+  font-family: var(--font-primary);
+}
+
+.themes:hover > a {
+  color: var(--color-accent-2);
+  border-bottom: 2px solid var(--color-accent-2);
+}

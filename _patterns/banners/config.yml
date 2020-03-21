@@ -1,0 +1,19 @@
+title: "Banners"
+description: |
+    Banners should be used to separate
+
+patterns:
+  call-to-action:
+    title: "Call to action"
+    description: |
+      Here is a description
+
+  promotional-banner:
+    title: "Promotional Banner"
+    description: |
+      Here is a description
+
+  # division-banner:
+  #   title: "Division Banner"
+  #   description: |
+  #     Here is a description
