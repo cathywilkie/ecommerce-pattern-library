@@ -1,0 +1,16 @@
+title: "Navigation"
+description: |
+    These are all the navigation patterns found on the website, including the navigations that are part of the header and footer.
+patterns:
+  main-nav:
+    title: "Main Navigation"
+    description: |
+      This is the main navigation, with different categories for shopping. It should be used beneath the header, across the entire site.
+  page-nav:
+    title: "Page Navigation"
+    description: |
+      This is the page navigation which allows the user to go to certain pages, next or previous. It should be used at the end of all product page, on a dark background.
+  social-media:
+    title: "Social Navigation"
+    description: |
+      The social media icons redirect the user to different social plateforms. It should be used in the footer only.

@@ -61,26 +61,3 @@ header {
   }
 
 }
-
-/* -----------categories---------------*/
-
-.categories {
-  background-color: var(--color-primary-dark-darkest);
-}
-
-.categories > ul {
-  margin: 0;
-}
-
-.themes {
-  display: inline-block;
-}
-
-.themes > a {
-  font-family: var(--font-primary);
-}
-
-.themes:hover > a {
-  color: var(--color-accent-2);
-  border-bottom: 2px solid var(--color-accent-2);
-}
