@@ -1,3 +1,32 @@
 footer {
   background-color: var(--color-primary-dark);
+  border-top: 1px solid var(--color-accent-2);
+  border-bottom: 1px solid var(--color-accent-2);
+}
+
+.footer-logo {
+  position: absolute;
+}
+
+.svg {
+  position: relative;
+  transform: rotate(-90deg);
+  opacity: 0.1;
+  left: -90px;
+  top: 62px;
+  width: 300px;
+}
+
+.content {
+  padding-left: 3em;
+}
+
+.newsletter {
+  font-family: var(--font-primary);
+  font-weight: var(--font-weight-regular);
+}
+
+.copyright {
+  color: var(--color-secondary-light-darkest);
+  font-family: var(--font-primary);
 }

@@ -57,6 +57,18 @@
   display: inline-block;
 }
 
-.icon:hover {
+.icons:hover .icon {
   color: var(--color-accent-2);
+}
+
+/* -----------Footer Nav------------- */
+
+.info {
+  font-family: var(--font-primary);
+  font-weight: var(--font-weight-regular);
+}
+
+.info:hover {
+  color: var(--color-accent-2);
+  border-bottom: 2px solid var(--color-accent-2);
 }

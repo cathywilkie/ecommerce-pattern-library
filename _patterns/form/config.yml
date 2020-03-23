@@ -1,0 +1,13 @@
+title: "Form"
+description: |
+    Form fields should be used for checkout, except for the search and subscribe fields which are found in the header and footer.
+patterns:
+  search:
+    title: "Search bar"
+    description: |
+      The search bar is to be used only in the header.
+  subscribe:
+    title: "Newsletter Subscribe bar"
+    description: |
+      The subscribe bar is to be only used in the footer, along with a note about the newsletter.
+

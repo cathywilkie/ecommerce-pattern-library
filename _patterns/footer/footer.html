@@ -1,5 +1,29 @@
-<footer class="island" role="contentinfo">
+<footer class="pad-t-1-4 pad-b-1-4" role="contentinfo">
+  <div class="footer-logo">
+    <img class="svg" src="/images/logo.svg" alt="Black Market Logo" aria-label="Black Market Logo">
+  </div>
+
   <div class="grid grid-middle">
 
+    <div class="unit [ xs-1 s-1 m-1 l-1-2 ] content pad-b-1-2 pad-t-2 gutter">
+      <p class="mega newsletter push-0 pad-b-1-2">Subscribe to our Newsletter:</p>
+      <div>
+        {% pattern form/subscribe %}
+      </div>
+    </div>
+
+    <div class="unit [ xs-1 s-1 m-1 l-1-2 ] content pad-b-1-2 center-content">
+      <div>
+        {% pattern navigations/social-media %}
+      </div>
+      <div>
+        {% pattern navigations/footer-nav %}
+      </div>
+    </div>
+
+  </div>
+
+  <div class="center-content">
+    <p class="micro copyright push-0 pad-b-1-4">© 2020 Black Market</p>
   </div>
 </footer>

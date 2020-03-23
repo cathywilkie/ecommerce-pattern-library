@@ -14,3 +14,8 @@ patterns:
     title: "Social Navigation"
     description: |
       The social media icons redirect the user to different social plateforms. It should be used in the footer only.
+  footer-nav:
+    title: "Footer Navigation"
+    description: |
+      The footer nav is used for all the tabs not included in the header. It should be used in the footer only.
+    width: 340px
