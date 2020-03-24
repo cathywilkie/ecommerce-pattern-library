@@ -1,13 +1,20 @@
 title: "Cards"
 description: |
-  Cards are blae ble blou
-
+  Cards should be used to enhanced pages with images and for all products pages, other than their respective info page.
 patterns:
   products:
     title: "Product Card"
     description: |
-      Products card are the
-  # banner:
-  #   title: "Banner"
-  #   description: |
-  #     bla ble blou
+      This is the standard product card, without 'stickers'. Each card should contain a product image, product title, price and a add to cart button.
+  sale:
+    title: "Product Sale Card"
+    description: |
+      This is the sale product card, with a 'sale sticker'. Each sale card should contain a product image, product title, price, add to cart button and the 'sale sticker'.
+  categories:
+    title: "Categories Card"
+    description: |
+      This is a category card and is used to link to item categories such as Clothing, Stationary, sale, gift, etc.
+  icon-card:
+    title: "Icon Card"
+    description: |
+      This is an icon card. It is used to describe some of the awesome features the website offers, such as fast shipping.

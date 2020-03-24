@@ -1,6 +1,8 @@
+/* --------------Product card--------------- */
+
 .card {
   background-color: var(--color-secondary-light-grey);
-  border-radius: 6px;
+  border-radius: 8px;
   max-width: 70%;
 }
 
@@ -20,6 +22,34 @@
   text-align: right;
 }
 
-.card:hover .img-card {
+/* ----------Categories Cards--------------- */
 
+.sale-sticker {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+/* ----------Categories Cards--------------- */
+
+.category-card {
+  background-color: var(--color-secondary-light-grey);
+  border-radius: 15px;
+  max-width: 70%;
+}
+
+.img-card-category {
+  border-radius: 15px 15px 0 0;
+}
+
+.bottom-sec {
+  background-color: var(--color-primary-dark-darkest);
+  border: 2px solid transparent;
+  border-radius: 0 0 15px 15px;
+}
+
+.category-name {
+  color: var(--color-secondary-light);
+  font-family: var(--font-primary);
+  text-align: center;
 }

@@ -2,12 +2,189 @@ title: "Form"
 description: |
     Form fields should be used for checkout, except for the search and subscribe fields which are found in the header and footer.
 patterns:
+  basic-form:
+    title: "Basic Form Field"
+    description: |
+      This is the basic form field, meant for single lines of text. It should be used for forms found in the checkout, sign up, and login pages. This field by default is not required, which can be used for optional fields such as ‘address line 2’.
+    width: 36em
+    fields:
+      - name: title
+        type: string
+        example: "Address 2"
+      - name: id
+        type: string
+        example: "address-2"
+      - name: type
+        type: string
+        example: "text"
+      - name: placeholder
+        type: string
+        example: ""
+  required-basic:
+    title: "Basic Required Form Field"
+    description: |
+      This is the basic required form field, meant for single lines of text. It should be used for forms found in the checkout, sign up, and login pages. This field by default is required and inlcuded an error message when fields are submitted without being filled.
+    width: 38em
+    fields:
+      - name: title
+        type: string
+        example: "Last Name"
+      - name: id
+        type: string
+        example: "last-name"
+      - name: details
+        type: string
+        example: "a last name"
+      - name: error
+        type: string
+        example: "last-name-error"
+      - name: type
+        type: string
+        example: "text"
+      - name: placeholder
+        type: string
+        example: ""
+  checkbox:
+    title: "Basic Checkbox"
+    description: |
+      This is the standard checkbox.This checkbox by default is not required, which can be used for optional elements such as agreeing to receive emails, offers, and other non-contract agreements.
+    width: 38em
+    fields:
+      - name: label
+        type: string
+        example: "Subscribe to promotional newsletter"
+      - name: id
+        type: string
+        example: "promo-offers"
+  checkbox-required:
+    title: "Basic Required Checkbox"
+    description: |
+      This is the basic required checkbox. This checkbox by default is required, which can be used for agreeing to the terms of service.
+    width: 38em
+    fields:
+      - name: label
+        type: string
+        example: "Agree to Terms and Services"
+      - name: id
+        type: string
+        example: "tos"
+      - name: details
+        type: string
+        example: "You must agree to the Terms and Services"
+      - name: error
+        type: string
+        example: "tos-error"
+  radio:
+    title: "Basic Radio Button"
+    description: |
+      This is the basic radio button. This radio button by default is required, which can be used for determining yes or no questions, or any question invloving multiple answer choices but only one option to pick.
+    fields:
+      - name: legend
+        type: string
+        example: "Choose a Delivery Method"
+      - name: id1
+        type: string
+        example: "std-ship"
+      - name: id2
+        type: string
+        example: "2d-ship"
+      - name: id3
+        type: string
+        example: "1d-ship"
+      - name: name
+        type: string
+        example: "ship"
+      - name: label1
+        type: string
+        example: "Standard Shipping"
+      - name: label2
+        type: string
+        example: "2-Day Express Shipping"
+      - name: label3
+        type: string
+        example: "1-Day Express Shipping"
+      - name: price1
+        type: number
+        example: "5.00"
+      - name: price2
+        type: number
+        example: "8.00"
+      - name: price3
+        type: number
+        example: "10.00"
+      - name: description1
+        type: string
+        example: "Normally ships in 5–7 business days, unless otherwise noted."
+      - name: description2
+        type: string
+        example: "Normally ships in 2 business days, unless otherwise noted."
+      - name: description3
+        type: string
+        example: "Normally ships in 1 business day, unless otherwise noted."
+      - name: details
+        type: string
+        example: "You must select a delivery method"
+      - name: error
+        type: string
+        example: "ship-error"
+  size:
+    title: "Size Selection Field"
+    description: |
+      This is the size selection field. This field by default is required, and is found on the product pages.
+    width: 8em
+    fields:
+      - name: id
+        type: string
+        example: "size"
+      - name: label
+        type: string
+        example: "Size"
+      - name: details
+        type: string
+        example: "You must select a size"
+      - name: error
+        type: string
+        example: "size-error"
+  quantity:
+    title: "Quantity Selection Field"
+    description: |
+      This is the quantity selection field. This field by default is required, and is found on the product pages.
+    width: 8em
+    fields:
+      - name: id
+        type: string
+        example: "quant"
+      - name: title
+        type: string
+        example: "Quantity"
+      - name: type
+        type: string
+        example: "number"
+      - name: details
+        type: string
+        example: "Please select a quantity"
+      - name: error
+        type: string
+        example: "quant-error"
+  warning:
+    title: "Example of a Fieldset with Warnings"
+    description: |
+      This is an example of a fieldset with warnings.
+    fields:
+      - name: formtitle
+        type: string
+        example: "Checkout"
+      - name: formalert
+        type: string
+        example: "There are some items that require your attention"
   search:
-    title: "Search bar"
+    title: "Search Field"
     description: |
       The search bar is to be used only in the header.
+    width: 450px
   subscribe:
-    title: "Newsletter Subscribe bar"
+    title: "Newsletter Subscribe Field"
     description: |
       The subscribe bar is to be only used in the footer, along with a note about the newsletter.
+    width: 450px
 
