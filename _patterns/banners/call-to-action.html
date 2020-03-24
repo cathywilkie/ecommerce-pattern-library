@@ -1,10 +1,16 @@
-<div class="pad-t-1-2 pad-b call-to-action">
-  <img class="img-flex" src="" alt="">
-  <div class="gutter pad-t-1-2 content">
-    <h1 class="gutter pad-t-1-4 push-0 pad-b-1-2">Does it come in black?<br>Here, everything does</h1>
-    <p class="mega gutter pad-t-1-8">Learn more about our unique products</p>
-  </div>
-  <div class="gutter pad-b-1-2">
-    <div class="gutter">{% pattern buttons/ghost %}</div>
+<div class="action-banner relative">
+  <div class="action-content center-text island-2">
+    <div class="gutter-1-2 pad-t wrapper pad-b">
+      <div>
+        <h1 class="exa push-0 pad-b-1-2">Find your thing</h1>
+        <p class="mega push-0 pad-b-1-4">Awesome product, all black, created just for you</p>
+      </div>
+
+      {% if include.button_url %}
+        <div class="pad-t push">
+          {% pattern buttons/light %}
+        </div>
+      {% endif %}
+    </div>
   </div>
 </div>

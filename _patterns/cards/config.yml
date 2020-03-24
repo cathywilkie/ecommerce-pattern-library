@@ -18,3 +18,14 @@ patterns:
     title: "Icon Card"
     description: |
       This is an icon card. It is used to describe some of the awesome features the website offers, such as fast shipping.
+    padding: 2em
+    fields:
+      - name: title
+        type: string
+        example: "Certified Secure Payments"
+      - name: details
+        type: string
+        example: "100% Secure payment with Paypal and Sofort"
+      - name: image
+        type: image
+        example: "icons.svg#menu"

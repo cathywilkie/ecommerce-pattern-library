@@ -3,7 +3,19 @@
 }
 
 .promo {
-  background-color: var(--color-primary-dark-pale);
+  background-color: var(--color-primary-dark-darkest);
   text-align: center;
 }
 
+.promo:hover {
+  background-color: var(--color-accent-1);
+}
+
+.action-banner {
+  background: url("/images/call-to-action-banner.jpg") center center / cover no-repeat var(--color-primary-dark);
+}
+
+.action-content {
+  color: var(--color-primary-opposite);
+  width: 100%;
+}

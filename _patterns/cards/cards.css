@@ -34,18 +34,18 @@
 
 .category-card {
   background-color: var(--color-secondary-light-grey);
-  border-radius: 15px;
+  border-radius: 22px;
   max-width: 70%;
 }
 
 .img-card-category {
-  border-radius: 15px 15px 0 0;
+  border-radius: 22px 22px 0 0;
 }
 
 .bottom-sec {
   background-color: var(--color-primary-dark-darkest);
   border: 2px solid transparent;
-  border-radius: 0 0 15px 15px;
+  border-radius: 0 0 22px 22px;
 }
 
 .category-name {
