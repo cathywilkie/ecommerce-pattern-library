@@ -11,13 +11,15 @@ patternbot:
     accent: "--color-secondary-light-grey"
   rationales:
     typefaces.primary: |
-      Abril was selected because
+      Noto Serif was selected for its readability and nice contrasting form when reversed. This serif typeface is elegant and clean. Noto Serif is to be used for all text, but mostly Headings.
     typefaces.secondary: |
-      Noto is used for
+      Noto Sans is used for the same reason its Serif brother was choosen. It should be use for body copy or contrasting sub-headings.
     colors.primary: |
-      The primary colours are
+      The primary colours are the dark tones; this isn't called the Black Market for no reason. They should be used mostly for backgrounds, and for the text when contrast is required.
     colors.secondary: |
-      The secondary colours are
+      The secondary colours are the primary's opposite. They should be use for text on darker background, or for cards and forms.
+    colors.accent: |
+      The accent colours are the only vibrant and bright touch on the website, and should be used for buttons and in some hover situations.
   layouts:
     default: |
       The default layout should be used for almost every page, this is including the website’s main header and footer.

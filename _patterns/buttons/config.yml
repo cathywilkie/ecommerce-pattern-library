@@ -1,30 +1,53 @@
 title: "Buttons"
 description: |
     Buttons should be used in situations where a dramatic, obvious action is required. It is meant to direct users into taking the action required.
-colors:
-  background: "--color-primary-dark"
-  patterns:
-    buttons.add-to-cart: "--color-secondary-light-darkest"
+
 patterns:
   basic:
     title: "Basic"
     description: |
       Default to using the basic button. This button stands out better on a mid-grey background, and should take this contrast into consideration.
-      padding: 2em
+    padding: 2em
+    fields:
+      - name: title
+        type: string
+        example: "Buy Product"
+      - name: url
+        type: url
+        example: "/products/"
   ghost:
     title: "Ghost"
     description: |
       The ghost button is specifically for banners and special cards. It should always be used on a dark background.
-      padding: 2em
+    padding: 2em
+    fields:
+      - name: title
+        type: string
+        example: "Buy Products"
+      - name: url
+        type: url
+        example: "/products/"
   light:
     title: "Light"
     description: |
       The light buttons are the nemesis of the basic buttons. This button stands out better on dark background, and should take this contrast into consideration.
-      padding: 2em
+    padding: 2em
+    fields:
+      - name: title
+        type: string
+        example: "New Arrivals"
+      - name: url
+        type: url
+        example: "/new-arrivals.html"
   add-to-cart:
     title: "Add to Cart"
     description: |
       The add to cart button is specifically meant for the shopping cards. You can find it at the bottom right corner of the cards.
+    background: "--color-secondary-light"
+    fields:
+      - name: url
+        type: url
+        example: "/cart/"
   submit:
     title: "Submit Button"
     description: |

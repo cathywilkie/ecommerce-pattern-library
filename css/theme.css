@@ -20,6 +20,7 @@
 html {
   font-family: var(--font-secondary);
   color: var(--color-secondary-light-grey);
+  background-color: var(--color-primary-dark);
 }
 
 h1,

@@ -1,16 +1,18 @@
 <div class="action-banner relative">
-  <div class="action-content center-text island-2">
-    <div class="gutter-1-2 pad-t wrapper pad-b">
-      <div>
-        <h1 class="exa push-0 pad-b-1-2">Find your thing</h1>
-        <p class="mega push-0 pad-b-1-4">Awesome product, all black, created just for you</p>
-      </div>
-
-      {% if include.button_url %}
-        <div class="pad-t push">
-          {% pattern buttons/light %}
+  <a href="{{include.href}}" tabindex="0">
+    <div class="action-content center-text island-2">
+      <div class="gutter-1-2 pad-t wrapper pad-b">
+        <div>
+          <h1 class="exa push-0 pad-b-1-2">{{include.title}}</h1>
+          <p class="mega push-0 pad-b-1-4">{{include.details}}</p>
         </div>
-      {% endif %}
+
+        {% if include.button_url %}
+          <div class="pad-t push">
+            {% pattern buttons/light title="New Arrivals" url="/new-arrivals.html" %}
+          </div>
+        {% endif %}
+      </div>
     </div>
-  </div>
+  </a>
 </div>
