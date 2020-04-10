@@ -11,26 +11,26 @@ patterns:
     description: |
       The call to action banner is used on the main page only. It is meant to showcase new arrlivals, sales, and the top selling products.
     fields:
-    - name: title
-      type: string
-      example: "Find your thing"
-    - name: details
-      type: string
-      example: "Awesome product, all black, created just for you"
-    - name: href
-      type: url
-      example: "/products/"
+      - name: title
+        type: string
+        example: "Find your thing"
+      - name: details
+        type: string
+        example: "Awesome product, all black, created just for you"
+      - name: href
+        type: url
+        example: "/products/"
   promotional-banner:
     title: "Promotional Banner"
     description: |
       The promotional banner is used to promote wide sales and new items on the website.
     fields:
-    - name: title
-      type: string
-      example: "Mugs & Coffee on sale!"
-    - name: details
-      type: string
-      example: "Hurry up, offer last till February 29th"
-    - name: href
-      type: url
-      example: "/products/"
+      - name: title
+        type: string
+        example: "Mugs & Coffee on sale!"
+      - name: details
+        type: string
+        example: "Hurry up, offer last till February 29th"
+      - name: href
+        type: url
+        example: "/products/"

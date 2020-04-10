@@ -33,9 +33,7 @@
 /* ----------Categories Cards--------------- */
 
 .category-card {
-  background-color: var(--color-secondary-light-grey);
   border-radius: 22px;
-  max-width: 70%;
 }
 
 .img-card-category {
@@ -52,4 +50,8 @@
   color: var(--color-secondary-light);
   font-family: var(--font-primary);
   text-align: center;
+}
+
+.category-card:hover .bottom-sec {
+  background-color: var(--color-primary-dark-pale);
 }

@@ -6,14 +6,36 @@ patterns:
     title: "Product Card"
     description: |
       This is the standard product card, without 'stickers'. Each card should contain a product image, product title, price and a add to cart button.
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.products[0]"
+          type: Product
   sale:
     title: "Product Sale Card"
     description: |
       This is the sale product card, with a 'sale sticker'. Each sale card should contain a product image, product title, price, add to cart button and the 'sale sticker'.
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.products[0]"
+          type: Product
   categories:
     title: "Categories Card"
     description: |
       This is a category card and is used to link to item categories such as Clothing, Stationary, sale, gift, etc.
+    fields:
+      - name: title
+        type: string
+        example: "Shop Clothing"
+      - name: image
+        type: image
+        example: "/images/sneakers.jpg"
+      - name: url
+        type: string
+        example: ""
   icon-card:
     title: "Icon Card"
     description: |
