@@ -1,13 +1,15 @@
-<div class="card unit xs-1 m-1-3">
+<div class="card chop">
   <a href="{{include.data.url}}" tabindex="0">
-    <img class="img-flex img-card" src="{{include.data.image1}}" alt="{{include.data.image1-alt}}">
+    <img class="img-flex img-card" src="{{include.data.image}}" alt="{{include.data.image-alt}}">
+
     <div class="card-content gutter pad-t-1-2">
-      <p class="giga pad-t-1-4 push-0 card-title">{{include.data.name}}</p>
-      <p class="milli pad-t-1-8">{{include.details}}</p>
+      <p class="giga pad-t-1-4 push-0 card-title">{{include.data.title}}</p>
+      <p class="milli pad-t-1-8">{{include.data.description}}</p>
     </div>
+
     <div class="grid gutter grid-middle pad-b-1-2">
-      <p class="unit xs-1-2 s-1-2 m-1-2 l-1-2 card-content mega push-0">&#36 {{include.data.price}}</p>
-      <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 pad-b-1-4 cart-cart">{% pattern buttons/add-to-cart %}</div>
+      <p class="unit xs-1-2 s-1-2 m-1-2 l-1-2 card-content mega push-0">${{include.data.price}}</p>
+      <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 pad-b-1-4 cart-cart">{% pattern buttons/add-to-cart url="/cart/" %}</div>
     </div>
   </a>
 </div>

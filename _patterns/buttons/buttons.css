@@ -54,6 +54,12 @@
   color: var(--color-primary-dark);
 }
 
+.btn-add-cart:hover {
+  border: 2px solid var(--color-secondary-light-darkest);
+  background-color: var(--color-secondary-light-darkest);
+  color: var(--color-primary-dark-darkest);
+}
+
 .btn-submit {
   background-color: var(--color-primary-dark-darkest);
   border: none;

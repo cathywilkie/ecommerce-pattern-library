@@ -47,7 +47,7 @@ patterns:
     fields:
       - name: url
         type: url
-        example: "/cart/"
+        example: ""
   submit:
     title: "Submit Button"
     description: |
